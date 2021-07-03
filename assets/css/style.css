@@ -1,0 +1,150 @@
+*, ::after, ::before {margin: 0;padding: 0;box-sizing: border-box;}
+
+@font-face {
+  font-family: roboto-slab-bold;
+  src: url(/assets/fonts/roboto-slab/static/robotoslab-bold.ttf);
+}
+
+@font-face {
+  font-family: roboto-slab-medium;
+  src: url(/assets/fonts/roboto-slab/static/robotoslab-medium.ttf);
+}
+
+@font-face {
+  font-family: roboto-slab-regular;
+  src: url(/assets/fonts/roboto-slab/static/robotoslab-regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(/assets/fonts/roboto/roboto-regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url(/assets/fonts/roboto/roboto-light.ttf);
+}
+
+body{font-size: 1rem;line-height: 1.5;width: 100%;height: 100%;}
+
+img{width: 100%;}
+
+h1,h2,h3,h4,h5,h6{font-family: roboto-slab-bold;}
+
+p{font-family: roboto-regular;font-size: 16px;}
+
+li, span, a, figcaption, label{font-family: roboto-regular;}
+
+.container{max-width: 1140px;margin-right: auto;margin-left: auto;width: 100%;padding-right: 25px;padding-left: 25px;}
+
+.text-center{text-align: center;}
+
+.text-white{color: #fff;}
+
+.text-blue{color: #133357;}
+
+.bg-blue{background: linear-gradient(to right, #000 15%, #133357 75%);}
+
+.pt-20{padding-top: 20px;}
+
+.pb-20{padding-bottom: 20px;}
+
+.d-flex{display: flex;}
+
+.align-item-center{align-items: center;}
+
+.right{float: right;}
+
+.left{float: left;}
+
+.column-6{width: 50%;float: left;}
+
+section{padding-bottom: 40px;}
+
+.navbar ul li{list-style-type: none;padding: 20px 29px;font-size: 18px;text-transform: uppercase;}
+
+.navbar ul li a{color: #000;text-decoration: none;}
+
+.navbar{height: 100px;}
+
+.welcome-content img{width: 400px;}
+
+.welcome-content h1{font-size: 45px;line-height: 55px;}
+
+.btn-blue {background: linear-gradient(to right, #000 15%, #133357 75%);color: #fff;padding: 12px 20px;border-radius: 4px;border: unset;text-transform: uppercase;margin-top: 20px;font-weight: 600;}
+
+.weather-channel h2{background: #133357;padding: 10px 30px;font-size: 20px;color: #fff;font-family: 'roboto-regular';}
+
+.w-box{width: 100%;text-align: center;height: 215px;padding: 20px 0;}
+
+.box-div .w-box:nth-child(1){background: #0D7E88;}
+
+.box-div .w-box:nth-child(2){background: #D09378;}
+
+.box-div .w-box:nth-child(3){background: #405B5D;}
+
+.box-div .w-box:nth-child(4){background: #74A748;}
+
+.w-box p{color: #fff;font-size: 20px;font-weight: 600;}
+
+.w-box img{width: 50px;margin-top: 15px;}
+
+.w-box .celsius{font-size: 65px;color: #fff;font-weight: 500;}
+
+#destinations img{border-radius: 13px 13px 13px 0px;height: 200px;}
+
+#destinations figcaption{margin-top: 10px;color: #727272;}
+
+.trip-bg{background-image: url(/assets/promo-image.png);height: 85vh;background-position: center;background-size: cover;background-repeat: no-repeat;position: relative;}
+
+.tp-content p:nth-child(1) {color: #fff;font-size: 50px;font-weight: 600;letter-spacing: 3px;}
+
+.tp-content p:nth-child(2) {color: #fff;font-size: 33px;font-weight: 600;}
+
+.tp-content{position: absolute;bottom: 55px;left: 76px;}
+
+input[type=text], input[type=email]{width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;display: block;}
+
+.quote form{width: 50%;margin: 0 auto;text-align: center;}
+
+.form-div{text-align: left;margin-top: 20px;}
+
+.form-div label{color: #ababab;font-size: 14px;font-weight: 600;}
+
+.quote h2{padding-top: 30px;}
+
+.column{left;padding: 40px 0;}
+
+.column p{color: #fff;font-size: 20px;font-weight: 600;margin-bottom: 25px;}
+
+.column ul li{list-style-type: none;margin-bottom: 10px;}
+
+.column ul li a{color: #fff;text-decoration: none;}
+
+.column:nth-child(1), .column:nth-child(2), .column:nth-child(3){width: 20%;float: left;}
+
+.column:nth-child(4){width: 40%;}
+
+.column p:nth-child(2){font-size: 16px;font-weight: 400;}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .welcome-content img {width: 100%;}
+
+  .box-div{display: block;}
+
+  .w-box{width: 50%;float: left;height: auto;}
+
+  .w-box .celsius{font-size: 40px;}
+
+  .m-d-block {display: block;}
+
+}
