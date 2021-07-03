@@ -25,6 +25,8 @@
   src: url(/assets/fonts/roboto/roboto-light.ttf);
 }
 
+html{scroll-behavior: smooth;}
+
 body{font-size: 1rem;line-height: 1.5;width: 100%;height: 100%;}
 
 img{width: 100%;}
@@ -113,7 +115,7 @@ input[type=text], input[type=email]{width: 100%;padding: 12px 20px;margin: 8px 0
 
 .quote h2{padding-top: 30px;}
 
-.column{left;padding: 40px 0;}
+.column{padding: 40px 0;}
 
 .column p{color: #fff;font-size: 20px;font-weight: 600;margin-bottom: 25px;}
 
@@ -127,6 +129,7 @@ input[type=text], input[type=email]{width: 100%;padding: 12px 20px;margin: 8px 0
 
 .column p:nth-child(2){font-size: 16px;font-weight: 400;}
 
+.row{display: flex;flex-wrap: wrap;}
 
 
 
@@ -135,11 +138,11 @@ input[type=text], input[type=email]{width: 100%;padding: 12px 20px;margin: 8px 0
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   .welcome-content img {width: 100%;}
 
-  .box-div{display: block;}
+  .box-div{flex-wrap: wrap;}
 
   .w-box{width: 50%;float: left;height: auto;}
 
@@ -147,4 +150,26 @@ input[type=text], input[type=email]{width: 100%;padding: 12px 20px;margin: 8px 0
 
   .m-d-block {display: block;}
 
+  .column-6{width: 100%;}
+
+  .welcome-content h1 {font-size: 25px;line-height: 35px;margin-top: 30px;}
+
+  .welcome-content .column-6:nth-child(2){text-align: center;}
+
+  .tp-content {position: absolute;bottom: 20px;left: 25px;}
+
+  .tp-content p:nth-child(1) {font-size: 20px;font-weight: 600;letter-spacing: 0px;}
+
+  .tp-content p:nth-child(2) {font-size: 18px;font-weight: 600;}
+
+  .trip-bg{height: 35vh;}
+
+  .quote form{width: 100%;}
+
+  .column:nth-child(1), .column:nth-child(2), .column:nth-child(3), .column:nth-child(4){width: 100%;}
+
+  .navbar ul li{padding: 20px 10px;font-size: 14px;font-weight: 600}
+
+  .navbar .right{right: unset;}
 }
+
